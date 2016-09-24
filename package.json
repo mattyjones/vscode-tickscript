@@ -1,5 +1,5 @@
 {
-    "name": "vscode-tick",
+    "name": "vscode-tickscript",
     "displayName": "tickscript",
     "description": "tick support",
     "icon": "",
@@ -14,13 +14,13 @@
         "vscode": "^1.5.0"
     },
     "bugs": {
-        "url": "https://github.com/mattyjones/vscode-tick/issues",
+        "url": "https://github.com/mattyjones/vscode-tickscript/issues",
         "email": "mattjones@yieldbot.com"
     },
-    "homepage": "https://github.com/mattyjones/vscode-tick/blob/master/README.md",
+    "homepage": "https://github.com/mattyjones/vscode-tickscript/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mattyjones/vscode-tick.git"
+        "url": "https://github.com/mattyjones/vscode-tickscript.git"
     },
     "categories": [
         "Languages"

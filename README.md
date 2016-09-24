@@ -1,4 +1,4 @@
-# vscode-tick README
+# vscode-tickscript README
 
 
 ## Features
