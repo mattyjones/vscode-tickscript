@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-## [0.0.2] - 2016-09-24
+## [0.0.2] 2016-09-24
 ### Added
 - CHANGELOG.md
 - prepublish command to validate json before publish
@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - README.md
 - package.json
 
-## 0.0.1 - 2016-09-24
+## 0.0.1 2016-09-24
 ### Added
 - everything
 
