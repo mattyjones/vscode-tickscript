@@ -1,0 +1,26 @@
+{
+    "name": "vscode-tick",
+    "displayName": "tickscript",
+    "description": "tick support",
+    "version": "0.0.2",
+    "publisher": "caffeinatedengineering",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "tick",
+            "aliases": ["tickscript", "tick"],
+            "extensions": [".tick"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "tick",
+            "scopeName": "source.tick",
+            "path": "./syntaxes/tick.json"
+        }]
+    }
+}
