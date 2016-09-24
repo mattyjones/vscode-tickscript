@@ -3,16 +3,12 @@
 
 ## Features
 
-Syntax Highlighting for tickscript
-
-## Requirements
-
-## Extension Settings
+Syntax Highlighting for tickscript used with kapacitor
 
 ## Known Issues
 
+Triple quotes strings `'''`
+
 ## Release Notes
 
-### 0.0.1
-
-Initial release
+Please see the [CHANGELOG](./CHANGELOG.md)

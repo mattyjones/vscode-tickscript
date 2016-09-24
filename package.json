@@ -1,18 +1,23 @@
 {
     "name": "vscode-tickscript",
-    "displayName": "tickscript",
-    "description": "tick support",
+    "displayName": "Tickscript Syntax Highlighting for Visual Studio Code",
+    "description": "tick supportProvides syntax highlighting for tickscript DSL used by kapacitor",
     "icon": "",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "mattyjones",
     "galleryBanner": {
-        "color": "#0000FF",
+        "color": "#410E5B",
         "theme": "dark"
     },
     "license": "MIT",
     "engines": {
-        "vscode": "^1.5.0"
+        "vscode": "^0.10.5"
     },
+    "keywords": [
+        "tick",
+        "tickscript",
+        "kapacitor"
+    ],
     "bugs": {
         "url": "https://github.com/mattyjones/vscode-tickscript/issues",
         "email": "mattjones@yieldbot.com"
@@ -25,6 +30,9 @@
     "categories": [
         "Languages"
     ],
+    "scripts": {
+        "vscode:prepublish": "jsonlint-cli syntaxes/tick.json"
+    },
     "contributes": {
         "languages": [
             {
