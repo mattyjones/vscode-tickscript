@@ -16,4 +16,3 @@ Syntax Highlighting for tickscript
 ### 0.0.1
 
 Initial release
-

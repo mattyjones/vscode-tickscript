@@ -2,25 +2,56 @@
     "name": "vscode-tick",
     "displayName": "tickscript",
     "description": "tick support",
-    "version": "0.0.2",
-    "publisher": "caffeinatedengineering",
+    "icon": "",
+    "version": "0.0.1",
+    "publisher": "mattyjones",
+    "galleryBanner": {
+        "color": "#0000FF",
+        "theme": "dark"
+    },
+    "license": "MIT",
     "engines": {
         "vscode": "^1.5.0"
+    },
+    "bugs": {
+        "url": "https://github.com/mattyjones/vscode-tick/issues",
+        "email": "mattjones@yieldbot.com"
+    },
+    "homepage": "https://github.com/mattyjones/vscode-tick/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mattyjones/vscode-tick.git"
     },
     "categories": [
         "Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "tick",
-            "aliases": ["tickscript", "tick"],
-            "extensions": [".tick"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "tick",
-            "scopeName": "source.tick",
-            "path": "./syntaxes/tick.json"
-        }]
+        "languages": [
+            {
+                "id": "tick",
+                "aliases": [
+                    "tickscript",
+                    "tick"
+                ],
+                "extensions": [
+                    ".tick"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "tick",
+                "scopeName": "source.tick",
+                "path": "./syntaxes/tick.json"
+            }
+        ],
+        "badges": [
+            {
+                "url": "https://david-dm.org/Microsoft/vscode-spell-check.svg",
+                "href": "https://david-dm.org/Microsoft/vscode-spell-check",
+                "description": "Dependency Status"
+            }
+        ]
     }
 }
