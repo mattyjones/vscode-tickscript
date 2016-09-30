@@ -2,8 +2,8 @@
     "name": "vscode-tickscript",
     "displayName": "Tickscript Syntax Highlighting for Visual Studio Code",
     "description": "tick supportProvides syntax highlighting for tickscript DSL used by kapacitor",
-    "icon": "",
-    "version": "0.0.2",
+    "icon": "images/icon.png",
+    "version": "0.0.3",
     "publisher": "mattyjones",
     "galleryBanner": {
         "color": "#410E5B",
@@ -34,6 +34,14 @@
         "vscode:prepublish": "jsonlint-cli syntaxes/tick.json"
     },
     "contributes": {
+        "contributes": {
+            "commands": [
+                {
+                    "command": "extension.tickfmt",
+                    "title": "Tickfmt"
+                }
+            ]
+        },
         "languages": [
             {
                 "id": "tick",
@@ -52,13 +60,6 @@
                 "language": "tick",
                 "scopeName": "source.tick",
                 "path": "./syntaxes/tick.json"
-            }
-        ],
-        "badges": [
-            {
-                "url": "https://david-dm.org/Microsoft/vscode-spell-check.svg",
-                "href": "https://david-dm.org/Microsoft/vscode-spell-check",
-                "description": "Dependency Status"
             }
         ]
     }

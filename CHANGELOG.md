@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.0.3] 2016-09-24
+### Added
+- image
+
 ## [0.0.2] 2016-09-24
 ### Added
 - CHANGELOG.md
@@ -19,5 +23,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - everything
 
-[Unreleased]: https://github.com/mattyjones/vscode-tickscript/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/mattyjones/vscode-tickscript/compare/v0.0.3...HEAD
+[0.0.3]: https://github.com/mattyjones/vscode-tickscript/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/mattyjones/vscode-tickscript/compare/v0.0.1...v0.0.2

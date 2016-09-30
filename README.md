@@ -17,3 +17,8 @@ Please see the [CHANGELOG](./CHANGELOG.md)
 
 Open up VS Code and hit `F1` or `CMD SHIFT p` and type ext select Install Extension and type `vscode-tickscript` hit enter and reload window to enable.
 
+## Todo
+
+- integrate tickfmt into package
+- live script to validate and test against
+- fix triple quotes strings
